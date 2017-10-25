@@ -1,1 +1,0 @@
-sqoop export --connect jdbc:mysql://localhost/h1b --username root --password ' ' --table question11 --export-dir /H1B/sqoop/question11/p* --input-fields-terminated-by ',' --mysql-delimiters -m 1;
