@@ -1,0 +1,1 @@
+sqoop export --connect jdbc:mysql://localhost/h1b --username root --password ' ' --table question11 --update-mode allowinsert  --export-dir /H1B/PIG/Question10/p* --input-fields-terminated-by '\t' ;
