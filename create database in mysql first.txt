@@ -1,0 +1,5 @@
+step 1> mysql -u root -p
+
+step 2> create database h1b;
+
+step 3> create table question11 (job_title varchar(200) NOT NULL,applications bigint NOT NULL) ;
